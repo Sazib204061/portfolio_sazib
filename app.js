@@ -398,9 +398,9 @@ function renderContact(c) {
   if (!c || !c.isActive) return;
   const field =
     "width:100%;padding:11px 14px;border:1px solid var(--hairline);border-radius:var(--r-md);background:var(--canvas);color:var(--ink);font-family:var(--body-font);font-size:.9rem";
-  const form = `<div class="reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start">
-      <div>
-        <p style="font-size:.95rem;color:var(--body);line-height:1.85;margin-bottom:1.2rem">
+  const form = `<div class="reveal contact-layout">
+      <div class="contact-copy">
+        <p class="contact-intro">
           Have a project in mind or want to collaborate? Send a message and I'll get back to you.
         </p>
         <div class="hero-meta">
@@ -409,13 +409,13 @@ function renderContact(c) {
           <span><i class="fas fa-map-marker-alt"></i> ${c.location}</span>
         </div>
       </div>
-      <form id="contact-form" style="display:flex;flex-direction:column;gap:.8rem">
+      <form id="contact-form" class="contact-form">
         <input name="from_name" type="text" required placeholder="Name" style="${field}" />
         <input name="from_email" type="email" required placeholder="Email" style="${field}" />
         <input name="subject" type="text" required placeholder="Subject" style="${field}" />
         <textarea name="message" rows="5" required placeholder="Message" style="${field};resize:vertical"></textarea>
-        <button type="submit" id="send-btn" class="btn-primary" style="height:44px;justify-content:center">Send Message</button>
-        <p id="form-status" style="font-family:var(--mono);font-size:.8rem;margin:0"></p>
+        <button type="submit" id="send-btn" class="btn-primary contact-submit">Send Message</button>
+        <p id="form-status" class="contact-status"></p>
       </form>
     </div>`;
   addSection("contact", "Contact", form, c.showInNav);
