@@ -325,6 +325,7 @@ function renderProjects(pr) {
   const cards = withDummy(pr.items, {
     title: "Project Title",
     link: "",
+    linkLabel: "GitHub",
     description: "Project details coming soon.",
     tags: ["Tag"],
   })
@@ -334,7 +335,7 @@ function renderProjects(pr) {
         <p class="project-desc">${it.description}</p>
         <div class="project-tags">${tagSpans(it.tags)}</div>
         <div class="project-links">
-          ${it.link ? `<a class="project-link" href="${it.link}" target="_blank">GitHub</a>` : ""}
+          ${it.link ? `<a class="project-link" href="${it.link}" target="_blank">${it.linkLabel || "GitHub"}</a>` : ""}
         </div>
       </div>`
     )
@@ -554,8 +555,12 @@ function initContactForm(contactData) {
 
     emailjs
       .send(contactData.form.serviceId, contactData.form.templateId, {
+        name: form.from_name.value,
+        email: form.from_email.value,
         from_name: form.from_name.value,
         from_email: form.from_email.value,
+        reply_to: form.from_email.value,
+        to_email: contactData.email,
         subject: form.subject.value,
         message: form.message.value,
       })

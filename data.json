@@ -28,28 +28,28 @@
         "title": "Junior Software Engineer (Full Stack)",
         "company": "Wafi Solutions",
         "period": "November 2025 - Present",
-        "description": "Working on NTouch PMS, a multi-tenant SaaS-based Hotel Management System developed using the ABP Framework with DDD and Clean Architecture. Designing and developing backend modules with ASP.NET Core and Entity Framework Core, implementing multi-tenancy, role-based authorization, and localization features. Building responsive and modular frontend components using Angular.",
-        "links": [{ "label": "NTouch PMS", "url": "https://dev.ntouch.ai/" }],
-        "tags": ["ABP Framework", "ASP.NET Core", "Angular", "DDD", "Clean Architecture"]
+        "description": "Working on NTouch PMS, a multi-tenant SaaS Hotel Management System built with ABP Framework using DDD and Clean Architecture. Designed and developed backend modules with ASP.NET Core and Entity Framework Core, implementing multi-tenancy, role-based authorization, and localization. Built responsive, modular frontend components using Angular and TypeScript. Applied OOP and DDD principles in an agile team using Jira and Azure DevOps.",
+        "links": [{ "label": "NTouch PMS", "url": "https://ntouch.ai/" }],
+        "tags": ["ABP Framework", "ASP.NET Core", "Entity Framework Core", "Angular", "TypeScript", "DDD", "Clean Architecture"]
       },
       {
         "title": "ASP.NET Developer",
         "company": "SoftVence",
         "period": "July 2025 - October 2025",
-        "description": "Led development of VexaCare, a client-based healthcare solution. Architected using Clean Architecture and Repository Pattern. Implemented payment gateway integration, AI-powered modules, and generic service layers. Managed team tasks and code reviews.",
+        "description": "Led development of VexaCare, a client-based healthcare solution architected with Clean Architecture and Repository Pattern. Implemented core features including payment gateway integration, AI-powered modules, and generic service layers using C#, ASP.NET Core, and Entity Framework. Managed team tasks, conducted code reviews, and ensured adherence to project specifications and deadlines.",
         "links": [
           { "label": "GitHub", "url": "https://github.com/Sazib204061/VEXACARE.git" },
           { "label": "Live", "url": "https://vexacare.health/" }
         ],
-        "tags": ["C#", "ASP.NET Core", "Entity Framework", "Clean Architecture"]
+        "tags": ["C#", "ASP.NET Core", "Entity Framework", "Clean Architecture", "Repository Pattern"]
       },
       {
         "title": "Intern - ASP.NET Developer",
         "company": "Brain Station 23 PLC",
         "period": "February 2025 - April 2025",
-        "description": "Gained hands-on experience with ASP.NET Core, C#, MVC, and SQL Server, contributing to backend development using Clean Architecture principles.",
+        "description": "Gained hands-on experience with ASP.NET Core, C#, MVC architecture, and SQL Server. Contributed to backend development applying Clean Architecture principles to build scalable, maintainable solutions. Worked in a team environment following OOP principles and the Repository Pattern.",
         "links": [],
-        "tags": ["ASP.NET Core", "C#", "MVC", "SQL Server"]
+        "tags": ["ASP.NET Core", "C#", "MVC", "SQL Server", "OOP", "Repository Pattern"]
       }
     ]
   },
@@ -62,7 +62,7 @@
         "institution": "Dhaka University of Engineering & Technology, Gazipur",
         "degree": "BSc, Computer Science and Engineering",
         "period": "2021 - 2025",
-        "details": ""
+        "details": "CGPA: 3.53/4"
       }
     ]
   },
@@ -74,18 +74,38 @@
         "label": "Problem Solving",
         "text": "1500+ problems solved",
         "platforms": [
-          { "name": "LeetCode", "rating": "1612", "url": "https://leetcode.com/u/sazib204061/" },
-          { "name": "CodeChef", "rating": "1643", "url": "https://www.codechef.com/users/sazibur" },
-          { "name": "Codeforces", "rating": "1252", "url": "https://codeforces.com/profile/Sazib204061" }
+          { "name": "LeetCode", "rating": "Max 1612", "url": "https://leetcode.com/u/sazib204061/" },
+          { "name": "CodeChef", "rating": "Max 1643", "url": "https://www.codechef.com/users/sazibur" },
+          { "name": "Codeforces", "rating": "Max 1252", "url": "https://codeforces.com/profile/Sazib204061" }
         ]
       },
       {
-        "label": "Languages & Frameworks",
-        "items": ["C++", "C#", "ASP.NET", "HTML", "CSS", "JavaScript", "MySQL", "SQL Server", "PostgreSQL"]
+        "label": "Languages",
+        "items": ["C#", "C++", "TypeScript", "JavaScript", "HTML", "CSS", "Python", "C"]
       },
       {
-        "label": "Version Control",
-        "items": ["Git", "GitHub"]
+        "label": "Frameworks/Libraries",
+        "items": ["ASP.NET Core", "ABP Framework", "Entity Framework Core", "MVC", "Clean Architecture", "Repository Pattern", "Angular", "Tailwind CSS", "Bootstrap 5"]
+      },
+      {
+        "label": "Data Management",
+        "items": ["MySQL", "PostgreSQL", "MSSQL", "SQL Server"]
+      },
+      {
+        "label": "Tools",
+        "items": ["Git", "GitHub", "Jira", "Swagger", "Cursor", "Claude AI", "Codex"]
+      },
+      {
+        "label": "Coursework",
+        "items": ["Data Structures & Algorithms", "Operating Systems", "Object Oriented Programming", "Database Management System", "Software Engineering", "Data Communication System"]
+      },
+      {
+        "label": "Areas of Interest",
+        "items": ["Full Stack Development", "Real Life Problem Solving", "Self-improvement"]
+      },
+      {
+        "label": "Soft Skills",
+        "items": ["Problem Solving", "Self-learning", "Team Collaboration", "Agile Development", "Adaptability"]
       }
     ]
   },
@@ -108,10 +128,6 @@
       {
         "title": "SRBD Code Contest 2024",
         "result": "Qualified for Round 2 — Top 300"
-      },
-      {
-        "title": "Achievements",
-        "result": "3rd place Bijoy-71 Programming Contest DUET-2024, 4th place IDCP-2022, 4th place BBPIPC-2019"
       }
     ]
   },
@@ -124,6 +140,12 @@
         "organization": "DUET Computer Society",
         "period": "2024 - 2025",
         "description": "Managed budgeting, funding, and strategic financial planning for society initiatives. Organized DUET IUPC-2025 as volunteer in Finance and Sponsor Management."
+      },
+      {
+        "title": "Additional Network and Communication Secretary",
+        "organization": "DUET Computer Society",
+        "period": "2023 - 2024",
+        "description": "Played an important role in organizing IDPC-2024."
       },
       {
         "title": "Additional Programming and Algorithms Secretary",
@@ -139,16 +161,24 @@
     "showInNav": true,
     "items": [
       {
+        "title": "NTouch PMS - AI-Powered Hospitality Property Management System",
+        "link": "https://pms-authserver.ntouch.ai/Account/Login",
+        "linkLabel": "Live",
+        "description": "Multi-tenant SaaS PMS covering reservations, accounting, housekeeping, and government integrations. Built booking engine features (group reservation validation, room-change service continuity, default time settings), accounting workflows (balance sheet, chart of accounts, journal entry, accrued revenue, bank transactions, paginated ledger, voucher sequencing), guest management (10M+ records, multi-field search, expiry validation), contract and invoicing flows (PDF, partial invoicing, reactive pricing), and integration tests for booking rules and validation edge cases.",
+        "tags": ["ABP Framework", "ASP.NET Core 9", "Angular 19", "PostgreSQL", "Multi-tenant SaaS"]
+      },
+      {
+        "title": "VexaCare - AI-Powered Healthcare Platform",
+        "link": "https://vexacare.health/",
+        "linkLabel": "Live",
+        "description": "Full-stack healthcare platform with patient management, doctor consultations, AI health analysis, and e-commerce. Architected using Clean Architecture and Repository Pattern with multi-role workflows, booking/scheduling, ratings, payouts, admin CMS, PayPal and Stripe integration, Google OAuth, and ASP.NET Core Identity. Implemented AI modules (VexaEpi, VexaGene, Microbiota) via OpenAI API with PDF report generation.",
+        "tags": ["ASP.NET Core 8", "C#", "Entity Framework Core 8", "SQL Server", "Razor", "AutoMapper", "Stripe", "PayPal", "OpenAI API"]
+      },
+      {
         "title": "Acme BookStore CRUD Application",
         "link": "https://github.com/Sazib204061/Acme.BookStoreBasicCrud",
         "description": "Full-stack book management system built with ABP Framework using DDD and layered architecture. ASP.NET Core Web API backend with Angular frontend. Utilized Entity Framework Core, Docker for containerization, and Grafana for monitoring.",
         "tags": ["ABP Framework", "ASP.NET Core", "Angular", "Docker", "Grafana"]
-      },
-      {
-        "title": "WallOfKindness (In Development)",
-        "link": "https://github.com/Sazib204061/WallOfKindness",
-        "description": "Help-based ASP.NET Core MVC project using Clean Architecture where users share extra products for free. Built with ASP.NET Identity for role management. Moderators/admins manage account confirmation and post approvals.",
-        "tags": ["ASP.NET Core", "MVC", "Clean Architecture", "ASP.NET Identity"]
       },
       {
         "title": "Banking System Console Application",
@@ -163,8 +193,9 @@
     "isActive": true,
     "items": [
       "3rd place — Bijoy-71 Programming Contest DUET",
-      "4th place — IDCP-2022",
-      "4th place — BBPIPC-2019"
+      "4th place — IDPC (Inter-DUET Programming Contest)",
+      "4th place — BBPIPC (Brahmanbaria Polytechnic Institute Programming Contest)",
+      "Best Student of the Year — BBPI (GPA 4.00/4.00, 3rd Semester Academic Result)"
     ]
   },
 
@@ -185,9 +216,9 @@
     "phone": "+880-1872567260",
     "location": "Dhaka, Bangladesh",
     "form": {
-      "serviceId": "YOUR_SERVICE_ID",
-      "templateId": "YOUR_TEMPLATE_ID",
-      "publicKey": "YOUR_PUBLIC_KEY"
+      "serviceId": "service_2rmaoz7",
+      "templateId": "template_4gjti97",
+      "publicKey": "FLVIkaM7sjQgMqtry"
     }
   }
 }
