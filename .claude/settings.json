@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//e/GitHub/3DPersonalWeb/3d-portfolio-website-master/src/data/**)"
+    ]
+  }
+}

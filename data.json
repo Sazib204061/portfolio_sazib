@@ -1,0 +1,193 @@
+{
+  "profile": {
+    "isActive": true,
+    "name": "Md Sazibur Rahman",
+    "title": "Junior Software Engineer (Full Stack)",
+    "location": "Dhaka, Bangladesh",
+    "email": "mdsaziburrahman440@gmail.com",
+    "phone": "+880-1872567260",
+    "photo": "images/profile.jpg",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/Sazib204061", "icon": "github" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/md-sazibur-rahman-49a0a82b4/", "icon": "linkedin" },
+      { "label": "LeetCode", "url": "https://leetcode.com/u/sazib204061/", "icon": "code" }
+    ]
+  },
+
+  "summary": {
+    "isActive": true,
+    "showInNav": true,
+    "text": "A tech explorer with 8+ months of professional experience and a competitive programmer with 6+ years of experience in problem solving and algorithmic challenges, including 150+ online/offline programming contest participations. Interested in contributing to innovative projects in software development through the latest technologies."
+  },
+
+  "experience": {
+    "isActive": true,
+    "showInNav": true,
+    "items": [
+      {
+        "title": "Junior Software Engineer (Full Stack)",
+        "company": "Wafi Solutions",
+        "period": "November 2025 - Present",
+        "description": "Working on NTouch PMS, a multi-tenant SaaS-based Hotel Management System developed using the ABP Framework with DDD and Clean Architecture. Designing and developing backend modules with ASP.NET Core and Entity Framework Core, implementing multi-tenancy, role-based authorization, and localization features. Building responsive and modular frontend components using Angular.",
+        "links": [{ "label": "NTouch PMS", "url": "https://dev.ntouch.ai/" }],
+        "tags": ["ABP Framework", "ASP.NET Core", "Angular", "DDD", "Clean Architecture"]
+      },
+      {
+        "title": "ASP.NET Developer",
+        "company": "SoftVence",
+        "period": "July 2025 - October 2025",
+        "description": "Led development of VexaCare, a client-based healthcare solution. Architected using Clean Architecture and Repository Pattern. Implemented payment gateway integration, AI-powered modules, and generic service layers. Managed team tasks and code reviews.",
+        "links": [
+          { "label": "GitHub", "url": "https://github.com/Sazib204061/VEXACARE.git" },
+          { "label": "Live", "url": "https://vexacare.health/" }
+        ],
+        "tags": ["C#", "ASP.NET Core", "Entity Framework", "Clean Architecture"]
+      },
+      {
+        "title": "Intern - ASP.NET Developer",
+        "company": "Brain Station 23 PLC",
+        "period": "February 2025 - April 2025",
+        "description": "Gained hands-on experience with ASP.NET Core, C#, MVC, and SQL Server, contributing to backend development using Clean Architecture principles.",
+        "links": [],
+        "tags": ["ASP.NET Core", "C#", "MVC", "SQL Server"]
+      }
+    ]
+  },
+
+  "education": {
+    "isActive": true,
+    "showInNav": true,
+    "items": [
+      {
+        "institution": "Dhaka University of Engineering & Technology, Gazipur",
+        "degree": "BSc, Computer Science and Engineering",
+        "period": "2021 - 2025",
+        "details": ""
+      }
+    ]
+  },
+
+  "skills": {
+    "isActive": true,
+    "categories": [
+      {
+        "label": "Problem Solving",
+        "text": "1500+ problems solved",
+        "platforms": [
+          { "name": "LeetCode", "rating": "1612", "url": "https://leetcode.com/u/sazib204061/" },
+          { "name": "CodeChef", "rating": "1643", "url": "https://www.codechef.com/users/sazibur" },
+          { "name": "Codeforces", "rating": "1252", "url": "https://codeforces.com/profile/Sazib204061" }
+        ]
+      },
+      {
+        "label": "Languages & Frameworks",
+        "items": ["C++", "C#", "ASP.NET", "HTML", "CSS", "JavaScript", "MySQL", "SQL Server", "PostgreSQL"]
+      },
+      {
+        "label": "Version Control",
+        "items": ["Git", "GitHub"]
+      }
+    ]
+  },
+
+  "competitiveProgramming": {
+    "isActive": true,
+    "items": [
+      {
+        "title": "TECHFEST IIT Bombay 2024",
+        "result": "2nd Runners-Up (Bangladesh Zonal) and Finalist at IIT Bombay"
+      },
+      {
+        "title": "META HACKERCUP 2023",
+        "result": "Qualified for Round 2 — Global Rank 3532"
+      },
+      {
+        "title": "National Programming Contests",
+        "result": "Participated at ICPC (2022, 2023, 2024), NCPC-2024, DUET IUPC-2025, SEC IUPC-2022 and IDPC (2022, 2023, 2024)"
+      },
+      {
+        "title": "SRBD Code Contest 2024",
+        "result": "Qualified for Round 2 — Top 300"
+      },
+      {
+        "title": "Achievements",
+        "result": "3rd place Bijoy-71 Programming Contest DUET-2024, 4th place IDCP-2022, 4th place BBPIPC-2019"
+      }
+    ]
+  },
+
+  "leadership": {
+    "isActive": true,
+    "items": [
+      {
+        "title": "Director of Finance",
+        "organization": "DUET Computer Society",
+        "period": "2024 - 2025",
+        "description": "Managed budgeting, funding, and strategic financial planning for society initiatives. Organized DUET IUPC-2025 as volunteer in Finance and Sponsor Management."
+      },
+      {
+        "title": "Additional Programming and Algorithms Secretary",
+        "organization": "DUET Computer Society",
+        "period": "2022 - 2023",
+        "description": "Conducted programming training sessions and organized programming contests."
+      }
+    ]
+  },
+
+  "projects": {
+    "isActive": true,
+    "showInNav": true,
+    "items": [
+      {
+        "title": "Acme BookStore CRUD Application",
+        "link": "https://github.com/Sazib204061/Acme.BookStoreBasicCrud",
+        "description": "Full-stack book management system built with ABP Framework using DDD and layered architecture. ASP.NET Core Web API backend with Angular frontend. Utilized Entity Framework Core, Docker for containerization, and Grafana for monitoring.",
+        "tags": ["ABP Framework", "ASP.NET Core", "Angular", "Docker", "Grafana"]
+      },
+      {
+        "title": "WallOfKindness (In Development)",
+        "link": "https://github.com/Sazib204061/WallOfKindness",
+        "description": "Help-based ASP.NET Core MVC project using Clean Architecture where users share extra products for free. Built with ASP.NET Identity for role management. Moderators/admins manage account confirmation and post approvals.",
+        "tags": ["ASP.NET Core", "MVC", "Clean Architecture", "ASP.NET Identity"]
+      },
+      {
+        "title": "Banking System Console Application",
+        "link": "https://github.com/Sazib204061/BankingSystem/tree/main",
+        "description": "C# console-based banking system using OOP principles. Implements account creation, transactions, and interest application with error handling and modular design.",
+        "tags": ["C#", "OOP", "Console Application"]
+      }
+    ]
+  },
+
+  "awards": {
+    "isActive": true,
+    "items": [
+      "3rd place — Bijoy-71 Programming Contest DUET",
+      "4th place — IDCP-2022",
+      "4th place — BBPIPC-2019"
+    ]
+  },
+
+  "certifications": {
+    "isActive": true,
+    "items": []
+  },
+
+  "seminars": {
+    "isActive": true,
+    "items": []
+  },
+
+  "contact": {
+    "isActive": true,
+    "showInNav": true,
+    "email": "mdsaziburrahman440@gmail.com",
+    "phone": "+880-1872567260",
+    "location": "Dhaka, Bangladesh",
+    "form": {
+      "serviceId": "YOUR_SERVICE_ID",
+      "templateId": "YOUR_TEMPLATE_ID",
+      "publicKey": "YOUR_PUBLIC_KEY"
+    }
+  }
+}
